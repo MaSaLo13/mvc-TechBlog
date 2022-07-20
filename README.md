@@ -1,4 +1,4 @@
-# mvc-TechBlog
+# TechBlog
 
 
 ## Description 
@@ -6,3 +6,4 @@
 
 
 ## Links 
+GitHub: https://github.com/MaSaLo13/mvc-TechBlog
