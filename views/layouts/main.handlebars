@@ -24,7 +24,11 @@
         <a href="/login">Login</a>
         {{/if}}
         <a href="/">Home</a>
-        <a href="/projects">Dashboard</a>
+        {{#if logged_in}}
+        <a href="/dashboard">Dashboard</a>
+        {{else}}
+        <a href="/login">Dashboard</a>
+        {{/if}}
       </nav>
     </header>
     <main class="container container-fluid mt-5">
